@@ -7,10 +7,10 @@ networks:
 services:
   flask:
     restart: always
+    container_name: flask-server
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: flask-server
     ports:
       - "5000:5000"
     volumes:
