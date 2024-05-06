@@ -1,0 +1,8 @@
+# virtualenv
+venv
+
+# cache
+__pycache__
+
+# database
+*.db
